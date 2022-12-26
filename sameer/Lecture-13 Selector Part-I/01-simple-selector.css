@@ -1,0 +1,125 @@
+/* Universal */
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* h1 {
+    color: olive;
+}
+h2 {
+    color: olive;
+}
+
+h3 {
+    color: olive;
+}
+h4 {
+    color: olive;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    color: tomato;
+}
+
+
+
+* {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /* border: 1px solid red; */
+   margin: 0;
+   padding: 0;
+}
+
+/* Element/Simple */
+/* p {
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+} */
+
+/* .color-change {
+    color: green;
+}
+.bg-color {
+    background-color: tan;
+} */
+
+/* .my-style {
+    color: red;
+    background-color: black;
+    font-size: xx-large;
+} */
+
+#font-change {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* h1 {
+    color: olive;
+    padding: 20px;
+} */
+/* Grouping */
+/* h1,h2,h3,h4,h5,h6 {
+    color: blueviolet
+} */
+
+/* Class */
+/* .main-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* ID Selector */
+/* #paragraph {
+    font-size: xx-large;
+} */
+
+
+/* Descendent */
+/* div.box p {
+    color: red;
+} */
+
+/* Child */
+/* div.underbox > p {
+    color: red;
+} */
+
+
+/* Adjacent Sibling */
+/* h1+p {
+    color: red;
+} */
+
+/* General Sibling */
+/* .para ~ p {
+    color: darkblue;
+} */
+
+
+/* Attribute Selector */
+/* a {
+color: olive;
+} */
+
+/* img {
+    border-radius: 100px;
+    width: 49%;
+}
+
+img[src*="image-01"] {
+    border: 5px solid red;
+} */
+
+
+/* Attribute */
+/* input {
+    border: 2px solid olive;
+    border-radius: 10px;
+} */
+
+/*
+input[type='text'] {
+    border: 2px solid olive;
+    border-radius: 10px;
+} */

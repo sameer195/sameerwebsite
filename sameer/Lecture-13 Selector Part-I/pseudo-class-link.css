@@ -1,0 +1,64 @@
+/* :root {
+    --majeed: #ff8822;
+    --fonts-change : Verdana;
+} */
+
+
+:root {
+    --oliveColor: olive;
+    --fontChange: Poppins;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(255, 0, 255, 0.5);
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+
+/* ? */
+a:link {
+    color: black;
+    font-size: 45px;
+}
+
+a:visited {
+    color: red;
+}
+
+
+a:hover {
+    color: black;
+    background-color: gainsboro;
+    animation: example 5s linear 2s infinite alternate;
+
+
+}
+
+
+a:active {
+    color: tomato;
+}
+
+
+h1 {
+    /* color: darkblue; */
+color: var(--oliveColor);
+    font-family: var(--fonts-change);
+}
+
+.color {
+    color: var(--oliveColor);
+    font-family: var(--fontChange);
+}
+
+pre {
+    /* color: darkblue; */
+    color: var(--majeed);
+}

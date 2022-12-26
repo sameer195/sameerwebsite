@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pseudo Element</title>
+    <link rel="stylesheet" href="pseudo-class-forms.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Registration Form</h1>
+        <label>First Name: </label> <br>
+        <input type="text" name="firstName" placeholder="Enter Your First Name" value="Atta Ullah Khan" readonly> <br> <br>  <!-- required, read-only -->
+    
+        <label>Last Name: </label> <br>
+        <input type="text" name="lastName" placeholder="Enter Your Last Name" required> <br> <br> 
+        
+        <label>Father's Name: </label> <br>
+        <input type="text" placeholder="Enter Your Father's Name" disabled> <!-- disabled --><br> <br>
+
+        <label>Your Age: </label> <br>
+        <input type="number" placeholder="Enter Your Age" max="40" min="18"> <br> <br>
+    
+        <label>Your Email: </label> <br>
+        <input type="email" placeholder="Enter Your Email"> <br> <br>
+
+        <label>Select Gender: </label>
+        <input type="radio" value="Male" name="gender" id="male"> <label for="male">Male</label> 
+        <input type="radio" value="Female" name="gender" id="female"> <label for="female">Female</label> <br>  <br>
+
+        <label>Select Courses: </label>
+        <input type="checkbox" name="course" value="HTML"id="html"> <label for="html">HTML</label>  
+        <input type="checkbox" name="course" id="css" value="CSS"> <label for="css">CSS</label> 
+        <input type="checkbox" name="course" id="bootstrap" value="Bootstrap"> <label for="bootstrap">Bootstrap</label> 
+
+
+        <br> <br>
+        <input type="submit" value="Submit"> <br> <br>
+    </form>    
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>IDs vs Classes</title>
+    <style>
+
+        .box {
+            margin: 5px;
+            width: 50px;
+            height: 50px;
+            background: tomato;
+            float: left;
+        }
+
+ 
+
+        #title {
+            color: olive;
+            font-family: Poppins;
+        }
+
+        .color {
+            color: olive;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #color {
+    font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+        }
+
+        /* Select All */
+        [href] {
+            color: red;
+        }
+
+        /* Select One */
+        a[href*="home.html"] {
+            color: red;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a:hover {
+            color: brown;
+        }
+
+ 
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Admission</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <h1 id="color" class="color">Welcome</h1>
+    <h1>Welcome</h1>
+
+    <!-- <h2 id="title">IDs vs Classes</h2>
+    <h2 id="title">Title # 02</h2>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div> -->
+
+ 
+
+    <script>
+        let title = document.getElementById("title");
+        console.log(title);
+ 
+
+        let boxes = document.getElementsByClassName("box");
+        console.log(boxes);
+    </script>
+
+</body>
+
+</html>

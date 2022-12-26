@@ -1,0 +1,26 @@
+
+
+ form {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    width: 30%;
+    
+    border: 2px solid;
+    text-align: center;
+    margin-left: 30%;
+    background-image: url("new folder/house.png");
+    box-shadow: 0 1px 10px orchid;
+    
+}
+label {
+    text-transform: uppercase;
+}
+
+input:hover {
+    background-color:gray;
+    
+}
+ input {
+
+    width: 90%;
+ }

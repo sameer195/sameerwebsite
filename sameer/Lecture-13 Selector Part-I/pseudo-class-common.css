@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+}
+h1 {
+    color: darkblue;
+}
+
+.box1,
+.box2 {
+    padding: 25px 10px;
+    border: 2px solid gray;
+} 
+
+:first-child 
+div.container p:first-child {
+    color: tomato;
+} 
+
+:last-child 
+div.container p:last-child {
+    color: red;
+}
+
+/* :nth-child(1,2,3,4..., even (2n),odd(2n+1)) */
+/* div.container h3:nth-child(4) {
+color: red;
+} */
+
+/* :first-of-type */
+/* div.container p:first-of-type {
+color: red;
+} */
+
+/* :nth-of-type (1,2,3,4..., even (2n),odd(2n+1)) */
+/* div.container p:nth-of-type(2n) {
+    color: tomato;
+} */
+
+/* :only-of-type */
+/* div.container :only-of-type {
+    color: tomato;
+} */
+
+/* :only-child */
+/* div.container :only-child {
+    color: red;
+} */
+
+/* :empty */
+/* div.container :empty {
+    background-color: tomato;
+    width: 200px;
+    height: 30px;
+} */
+
+/* :not() */
+/* div.box1 :not(p) {
+    color: tomato;
+}
+.link a:hover{
+    color: red;
+}
+.link a:active{
+    color: aqua;
+}
+
+
+/* ****************************************************** */
+
+/* ****************************************************** */

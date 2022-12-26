@@ -1,0 +1,38 @@
+/* Descendant Selector */
+/* div.box p {
+    color: darkcyan;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+/* div.box img {
+    width: 20%;
+} */
+
+/* .box {
+    border: solid 2px red;
+}
+
+.underbox {
+    border: solid 2px olive;
+}
+/* Child Selector (>) */
+/* div.box > p {
+    color: red;
+} */
+
+/* Adjacent Sibling Selector (+): */
+/* h1 + p {
+    color: red;
+ } 
+ 
+ .para + p {
+    color: darkblue;
+ } */
+
+/* General Sibling Selector (~): */
+/* h1 ~ p {
+    color: red;
+} */
+h1 ~ p {
+  color: red;
+}

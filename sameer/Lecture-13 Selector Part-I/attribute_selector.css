@@ -1,0 +1,30 @@
+[href] {
+    color: red;
+}
+
+[href='home'] {
+    color: rgb(31, 7, 31);
+}
+
+img {
+    width: 20%;
+}
+
+img[src*='images/image-01.jpg'] {
+    width: 20%;
+    border-radius: 50%;
+}
+
+input {
+    border: 2px solid blue;
+}
+
+input[type='password'] {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+}
+input[type='number']{
+    border-radius: 10px;
+}
+

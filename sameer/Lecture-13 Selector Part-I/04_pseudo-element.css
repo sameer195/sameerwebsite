@@ -1,0 +1,63 @@
+/*:root {
+    --maincolor: #880012;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    color: var(--maincolor);
+}
+
+/* ::first-letter 
+p::first-letter {
+    color:#00ffee;
+    font-size: 202%;
+}*/
+
+ /*Pseudo-elements and HTML Classes*/
+/*p.lorem::first-letter {
+    color: #0040ff;
+    font-size: 200%;
+}*/
+
+/* ::first-line */
+/*p.lorem::first-line {
+    color: olive;
+    font-size: xx-large;
+}*/
+
+/*Multiple Pseudo-Elements */
+/* p::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}/*
+p::first-line {
+    color: olive;
+    font-size: xx-large;
+} */
+
+ /*The ::before Pseudo-element */
+/*p::before {
+    content: url(images/smiley.gif);
+}*/
+
+/* The ::after Pseudo-element*/ 
+/*p::after {
+    content: url(images/smiley.gif);
+}*/
+::marker {
+    color: olive;
+    font-size: 23px;
+}
+/*p::selection {
+    color: white;
+    background-color: olivedrab;
+} */
+
+/*input::placeholder {
+    color: red;
+    font-size: 20px;
+}*/
